@@ -2,7 +2,7 @@
 
 
 
-### Описание проекта:
+### Description of the project:
 Chef's blog with recipes
 
 
