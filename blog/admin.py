@@ -18,6 +18,8 @@ class RecipeAdmin(admin.ModelAdmin):
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'author',  'category', 'created_at', 'id')
     inlines = [RecipeInLine]
+    save_as = True
+    save_on_top = True
 
 
 admin.site.register(models.Category, MPTTModelAdmin)
