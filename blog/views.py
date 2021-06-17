@@ -10,9 +10,6 @@ class HomeView(ListView):
     template_name = 'blog/home.html'
 
 
-
-
-
 class PostListView(ListView):
     model = Post
 
@@ -24,6 +21,3 @@ class PostDetailView(DetailView):
     model = Post
     context_object_name = 'post'
     slug_url_kwarg = 'post_slug'
-
- 
-
